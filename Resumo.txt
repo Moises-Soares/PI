@@ -1,0 +1,73 @@
+Algoritmos Numéricos sobre Inteiros
+
+	1.	Produto por Somatório: Implemente uma função float multInt1(int n, float m) que calcule o produto de n por m usando somatório.
+	2.	Produto com Tabela Binária: Implemente uma função float multInt2(int n, float m) que use a representação binária para calcular o produto, somando valores correspondentes onde n é ímpar.
+	3.	Máximo Divisor Comum (MDC): Implemente uma função int mdc1(int a, int b) que calcule o MDC através de divisores comuns.
+	4.	MDC com Algoritmo de Euclides: Implemente uma função int mdc2(int a, int b) que use subtração para calcular o MDC.
+	5.	MDC com Operações de Resto: Implemente uma função int mdc3(int a, int b) que use o operador % para calcular o MDC.
+	6.	Sequência de Fibonacci Recursiva: Implemente uma função int fib1(int n) para calcular o n-ésimo número de Fibonacci.
+	7.	Sequência de Fibonacci Iterativa: Implemente uma função int fib2(int n) para calcular o n-ésimo número de Fibonacci iterativamente.
+
+Strings e Ordenações
+
+	1.	Contagem de Vogais: Implemente uma função int contaVogais(char *s) que conta quantas vogais uma string tem.
+	2.	Remover Vogais Repetidas: Implemente uma função int retiraVogaisRep(char *s) que remove repetições consecutivas de vogais.
+	3.	Duplicar Vogais: Implemente uma função int duplicaVogais(char *s) que duplica todas as vogais de uma string.
+	4.	Teste de Ordenação: Implemente uma função int ordenado(int v[], int N) que testa se um array está ordenado.
+	5.	Mescla de Arrays Ordenados: Implemente uma função void merge(int a[], int na, int b[], int nb, int r[]) que funde dois arrays ordenados.
+	6.	Partição de Array: Implemente uma função int partition(int v[], int N, int x) que reorganiza um array com base em um valor x.
+
+Structs
+
+	1.	Cálculo de Nota: Implemente uma função int nota(Aluno a) que calcula a nota de um aluno.
+	2.	Procura por Número: Implemente uma função int procuraNum(int num, Aluno t[], int N) que retorna o índice de um aluno dado seu número.
+	3.	Ordenação por Número: Implemente uma função void ordenaPorNum(Aluno t[], int N) que ordena um array de alunos por número.
+	4.	Criação de Índice por Número: Implemente uma função void criaIndPorNum(Aluno t[], int N, int ind[]) que preenche um array de índices ordenados por número de aluno.
+	5.	Imprimir Turma: Implemente uma função void imprimeTurma(int ind[], Aluno t[], int N) que imprime os alunos por ordem de número.
+	6.	Criação de Índice por Nome: Implemente uma função void criaIndPorNome(Aluno t[], int N, int ind[]) que preenche um array de índices ordenados por nome de aluno.
+
+Buffers
+
+	1.	Inicialização de Stack: Implemente uma função void SinitStack(SStack s) que inicializa uma stack.
+	2.	Teste de Stack Vazia: Implemente uma função int SisEmpty(SStack s) que testa se uma stack está vazia.
+	3.	Empilhar em Stack: Implemente uma função int Spush(SStack s, int x) que empilha um elemento na stack.
+	4.	Desempilhar de Stack: Implemente uma função int Spop(SStack s, int *x) que desempilha um elemento da stack.
+	5.	Ver Topo da Stack: Implemente uma função int Stop(SStack s, int *x) que retorna o elemento do topo da stack sem removê-lo.
+	6.	Inicialização de Queue: Implemente uma função void SinitQueue(SQueue q) que inicializa uma queue.
+	7.	Teste de Queue Vazia: Implemente uma função int SisEmptyQ(SQueue q) que testa se uma queue está vazia.
+	8.	Enfileirar em Queue: Implemente uma função int Senqueue(SQueue q, int x) que enfileira um elemento na queue.
+	9.	Desenfileirar de Queue: Implemente uma função int Sdequeue(SQueue q, int *x) que desenfileira um elemento da queue.
+	10.	Ver Início da Queue: Implemente uma função int Sfront(SQueue q, int *x) que retorna o elemento no início da queue sem removê-lo.
+
+Listas Ligadas
+
+	1.	Libertar Lista: Implemente uma função void libertaLista(Palavras l) que liberta o espaço ocupado pela lista.
+	2.	Contar Palavras: Implemente uma função int quantasP(Palavras l) que conta quantas palavras diferentes existem na lista.
+	3.	Imprimir Lista: Implemente uma função void listaPal(Palavras l) que imprime todas as palavras e suas ocorrências.
+	4.	Última Palavra: Implemente uma função char* ultima(Palavras l) que retorna a última palavra da lista.
+	5.	Adicionar no Início: Implemente uma função Palavras acrescentaInicio(Palavras l, char *p) que adiciona uma palavra no início da lista.
+	6.	Adicionar no Fim: Implemente uma função Palavras acrescentaFim(Palavras l, char *p) que adiciona uma palavra no fim da lista.
+	7.	Adicionar ou Incrementar Palavra: Implemente uma função Palavras acrescenta(Palavras l, char *p) que adiciona uma nova palavra ou incrementa sua ocorrência.
+	8.	Palavra mais Frequente: Implemente uma função struct celula* maisFreq(Palavras l) que retorna a palavra mais frequente na lista.
+
+Árvores Binárias
+
+	1.	Altura da Árvore: Implemente uma função int altura(ABin a) que calcula a altura de uma árvore binária.
+	2.	Número de Folhas: Implemente uma função int nFolhas(ABin a) que calcula o número de folhas de uma árvore binária.
+	3.	Nodo mais à Esquerda: Implemente uma função ABin maisEsquerda(ABin a) que retorna o nodo mais à esquerda de uma árvore.
+	4.	Imprimir Nível: Implemente uma função void imprimeNivel(ABin a, int l) que imprime os elementos da árvore em um determinado nível.
+	5.	Procurar Elemento: Implemente uma função int procuraE(ABin a, int x) que verifica se um elemento está presente na árvore.
+	6.	Procurar Nodo: Implemente uma função struct nodo* procura(ABin a, int x) que retorna o nodo que contém um elemento ou NULL se não existir.
+	7.	Nível do Elemento: Implemente uma função int nivel(ABin a, int x) que retorna o nível de um elemento na árvore ou -1 se não existir.
+	8.	Imprimir Elementos Menores que X: Implemente uma função void imprimeAte(ABin a, int x) que imprime os elementos da árvore menores que um dado valor x.
+
+Árvores Binárias de Procura
+
+	1.	Remover Menor Nodo: Implemente uma função ABin removeMenor(ABin *a) que remove o nodo mais à esquerda de uma árvore.
+	2.	Remover Raiz: Implemente uma função void removeRaiz(ABin *a) que remove a raiz de uma árvore não vazia.
+	3.	Remover Elemento: Implemente uma função int removeElem(ABin *a, int x) que remove um elemento de uma árvore binária de procura.
+	4.	Promover Menor Elemento: Implemente uma função void promoveMenor(ABin *a) que promove o menor elemento de uma árvore para a raiz.
+	5.	Promover Maior Elemento: Implemente uma função void promoveMaior(ABin *a) que promove o maior elemento de uma árvore para a raiz.
+	6.	Construir Espinha: Implemente uma função int constroiEspinha(ABin *a) que transforma a árvore em uma espinha.
+	7.	Equilibrar Espinha: Implemente uma função ABin equilibraEspinha(ABin *a, int n) que transforma uma espinha em uma árvore equilibrada.
+	8.	Equilibrar Árvore: Implemente uma função `void equilibra(AB
